@@ -88,7 +88,7 @@ public class TapHoldMove : MonoBehaviour
             mainCameraView.ScreenToWorldPoint(
                         new Vector3(_vecPos.x, _vecPos.y, 10));
 
-        s.CreateRPC(mainCameraView.transform);
+        //s.CreateRPC(mainCameraView.transform);
     }
 
     public void PushOff(InputAction.CallbackContext info)
